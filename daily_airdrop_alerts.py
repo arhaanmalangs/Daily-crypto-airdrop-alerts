@@ -218,7 +218,7 @@ def feed_list_from_env() -> list[str]:
     return feeds or DEFAULT_FEEDS
 
 
-def main() -> int:
+def main() -> int:f
     feeds = feed_list_from_env()
     seen_ids = load_seen_ids()
 
