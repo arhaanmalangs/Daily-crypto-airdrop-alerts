@@ -8,7 +8,7 @@ Optionally sends the digest by email via SMTP.
 from __future__ import annotations
 
 import json
-import os
+import osfdff
 import smtplib
 import ssl
 import sys
