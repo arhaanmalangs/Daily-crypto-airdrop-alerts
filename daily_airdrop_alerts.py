@@ -222,7 +222,7 @@ def main() -> int:
     feeds = feed_list_from_env()
     seen_ids = load_seen_ids()
 
-    all_entries: list[Entry] = []fgf
+    all_entries: list[Entry] = []
     for feed in feeds:
         try:
             all_entries.extend(parse_feed(feed))
